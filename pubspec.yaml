@@ -31,7 +31,6 @@ dev_dependencies:
 flutter:
   assets:
     - .env
-    - shorebird.yaml
   uses-material-design: true
   fonts:
     - family: OpenSans

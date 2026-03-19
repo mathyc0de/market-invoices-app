@@ -1,6 +1,6 @@
-﻿## Market Auxiliar Notes
+﻿## Market Invoices
 
-Market Auxiliar Notes é um projeto Flutter que gerencia itens e tabelas em um banco de dados SQLite. Feito com o intuito de gerar listas de preços e vendas para impressão ou persistência local de dados, em um nicho mais específico para o negócio do meu meio familiar.
+Market Invoices é um projeto Flutter que gerencia itens e tabelas em um banco de dados SQLite. Feito com o intuito de gerar listas de preços e vendas para impressão ou persistência local de dados, em um nicho mais específico para o negócio do meu meio familiar.
 
 ## Sumário
 

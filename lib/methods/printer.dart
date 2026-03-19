@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:fruteira/methods/database.dart';
+import 'package:market_invoices_app/methods/database.dart';
 import 'package:intl/intl.dart' show NumberFormat;
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;

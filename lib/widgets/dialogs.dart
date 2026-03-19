@@ -1,10 +1,10 @@
 import 'dart:convert' show jsonDecode;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show Clipboard;
-import 'package:fruteira/methods/ai_services.dart' show Prompt, sendToGroq;
-import 'package:fruteira/methods/database.dart' show Item, db;
-import 'package:fruteira/methods/str_manipulation.dart' show speechToList;
-import 'package:fruteira/widgets/buttons.dart';
+import 'package:market_invoices_app/methods/ai_services.dart' show Prompt, sendToGroq;
+import 'package:market_invoices_app/methods/database.dart' show Item, db;
+import 'package:market_invoices_app/methods/str_manipulation.dart' show speechToList;
+import 'package:market_invoices_app/widgets/buttons.dart';
 
 
 class AddManyDialog extends StatefulWidget {

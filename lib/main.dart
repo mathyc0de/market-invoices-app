@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fruteira/methods/database.dart' show DBManager, db;
-import 'package:fruteira/pages/home.dart';
+import 'package:market_invoices_app/methods/database.dart' show DBManager, db;
+import 'package:market_invoices_app/pages/home.dart';
 import 'package:intl/intl.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';

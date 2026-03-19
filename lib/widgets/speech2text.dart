@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:fruteira/methods/ai_services.dart';
-import 'package:fruteira/methods/database.dart' show Item, db;
-import 'package:fruteira/methods/str_manipulation.dart' show speechToList;
+import 'package:market_invoices_app/methods/ai_services.dart';
+import 'package:market_invoices_app/methods/database.dart' show Item, db;
+import 'package:market_invoices_app/methods/str_manipulation.dart' show speechToList;
 import 'package:speech_to_text/speech_to_text.dart';
-import 'package:fruteira/widgets/dialogs.dart' show ErrorDialog;
+import 'package:market_invoices_app/widgets/dialogs.dart' show ErrorDialog;
 
 
 

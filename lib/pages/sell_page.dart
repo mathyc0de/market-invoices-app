@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
-import 'package:fruteira/methods/printer.dart';
-import 'package:fruteira/methods/database.dart';
-import 'package:fruteira/methods/str_manipulation.dart';
-import 'package:fruteira/widgets/buttons.dart';
-import 'package:fruteira/widgets/dialogs.dart' show AddManyDialog;
-import 'package:fruteira/widgets/loadscreen.dart';
+import 'package:market_invoices_app/methods/printer.dart';
+import 'package:market_invoices_app/methods/database.dart';
+import 'package:market_invoices_app/methods/str_manipulation.dart';
+import 'package:market_invoices_app/widgets/buttons.dart';
+import 'package:market_invoices_app/widgets/dialogs.dart' show AddManyDialog;
+import 'package:market_invoices_app/widgets/loadscreen.dart';
 import 'package:intl/intl.dart' show NumberFormat;
-import 'package:fruteira/widgets/speech2text.dart';
+import 'package:market_invoices_app/widgets/speech2text.dart';
 
 
 const int maxProducts = 57;

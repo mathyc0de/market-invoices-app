@@ -1,10 +1,10 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
-import 'package:fruteira/methods/database.dart';
-import 'package:fruteira/pages/commerce_page.dart';
-import 'package:fruteira/widgets/buttons.dart';
-import 'package:fruteira/widgets/loadscreen.dart';
+import 'package:market_invoices_app/methods/database.dart';
+import 'package:market_invoices_app/pages/commerce_page.dart';
+import 'package:market_invoices_app/widgets/buttons.dart';
+import 'package:market_invoices_app/widgets/loadscreen.dart';
 
 
 
@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
       ),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 147, 199, 27),
-        title: const Text("Listas da Fruteira", style: TextStyle(fontWeight: FontWeight.w700, color: Colors.white),),
+        title: const Text("Market Invoices", style: TextStyle(fontWeight: FontWeight.w700, color: Colors.white),),
         centerTitle: true,
         leading: _editorMode? IconButton(
           icon: const Icon(Icons.do_not_disturb_on_rounded), 

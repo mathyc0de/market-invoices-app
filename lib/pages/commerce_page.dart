@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
-import 'package:fruteira/methods/database.dart';
-import 'package:fruteira/pages/products_page.dart';
-import 'package:fruteira/pages/sell_page.dart';
-import 'package:fruteira/widgets/buttons.dart';
-import 'package:fruteira/widgets/loadscreen.dart';
+import 'package:market_invoices_app/methods/database.dart';
+import 'package:market_invoices_app/pages/products_page.dart';
+import 'package:market_invoices_app/pages/sell_page.dart';
+import 'package:market_invoices_app/widgets/buttons.dart';
+import 'package:market_invoices_app/widgets/loadscreen.dart';
 
 class CommercePage extends StatefulWidget {
   const CommercePage({super.key, required this.commerce});

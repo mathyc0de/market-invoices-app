@@ -1,4 +1,4 @@
-import 'package:fruteira/methods/database.dart';
+import 'package:market_invoices_app/methods/database.dart';
 
 bool isNumeric(String? s) {
   if(s == null) {

@@ -90,7 +90,7 @@ class _StateProductsPage extends State<ProductsPage> {
   }
 
   Future<void> addProduct() async {
-    if (items.length < 96) {
+    if (items.length < maxProducts) {
       await showDialog(
           context: context,
           builder: (context) => AddProductDialog(tableId: widget.id));
